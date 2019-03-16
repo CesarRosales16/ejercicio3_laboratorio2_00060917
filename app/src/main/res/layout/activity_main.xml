@@ -8,32 +8,32 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/red"
         android:layout_width="match_parent"
         android:layout_height="@dimen/zero_dp"
-        android:orientation="vertical"
-        android:id="@+id/red"
-        android:layout_weight="1"
         android:layout_marginTop="@dimen/default_margin"
-        android:background="@color/red0">
+        android:layout_weight="1"
+        android:background="@color/red0"
+        android:orientation="vertical">
 
     </LinearLayout>
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/zero_dp"
-        android:orientation="vertical"
         android:id="@+id/green"
-        android:layout_weight="1"
-        android:layout_marginTop="@dimen/default_margin"
-        android:background="@color/green0">
-    </LinearLayout>
-    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/zero_dp"
-        android:orientation="vertical"
-        android:id="@+id/blue"
-        android:layout_weight="1"
         android:layout_marginTop="@dimen/default_margin"
-        android:background="@color/blue0">
-    </LinearLayout>
+        android:layout_weight="1"
+        android:background="@color/green0"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_dp"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_weight="1"
+        android:background="@color/blue0"
+        android:orientation="vertical"></LinearLayout>
 
 </LinearLayout>
